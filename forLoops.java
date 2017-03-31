@@ -52,37 +52,3 @@ static int ArrayLength;
 		
 	}
 }
-/*
- * {
-     int i;
-     boolean flag = true;   // set flag to true to begin first pass
-     int TempValue;   //holding variable
-
-     while ( flag )
-     {
-            flag= false;    //set flag to false awaiting a possible swap
-            for( i=0;  i < StoredInts.length -1;  i++ )
-            {
-                   if ( StoredInts[ i ] < StoredInts[i+1] )   // change to > for ascending sort
-                   {
-                           TempValue = StoredInts[ i ];                //swap elements
-                           StoredInts[ i ] = StoredInts[ i+1 ];
-                           StoredInts[ i+1 ] = TempValue;
-                          flag = true;              //shows a swap occurred 
-                  }
-            }
-      }
-}
- 
- */
-
-/*
-for i = 1:n,
-swapped = false
-for i = n:i+1, 
-    if a[i] < a[i-1], 
-        swap a[i,i-1]
-        swapped = true
- to* invariant: a[1..i] in final position
-break if not swapped
-end*/
