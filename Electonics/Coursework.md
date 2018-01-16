@@ -1,6 +1,3 @@
-# Automation of Window Blinds.
+# Integrated traffic Light System
 
-|Type|Device Name|
-|---|---|
-|Output|Stepper-Motor|
-|Input
+
